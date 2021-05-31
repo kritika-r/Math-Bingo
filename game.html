@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Math Bingo- Game
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h2  id="player1_name"> <span id="player1_score"></span></h2>
+        <br>
+        <h2  id="player1_name"> <span id="player1_score"></span></h2>
+        <br>
+        <h4 id="h41" >Question Turn:<span id="question"></span></h4>
+        <br>
+        <br>
+             <h4 id="h42" >Answer Turn:<span id="answer"></span></h4>
+            
+        <div class="container">
+            <center>
+                <h1> Math Bingo - Game</h1>
+                <br>
+               <h3> <b>Click Send to test your friend's maths!</b></h3>
+                <br>
+                
+                <div id="output" style="float: none;
+                width: 400px;
+                height: 120px;
+                background-color: white;
+                border-radius: 15px;" class="col-lg-6">
+                    <label style="color:black;"> 6 x 6</label>
+                    <br>
+                    <input class="form-control" id="answer_input" placeholder="Enter your answer here...">
+                    <button class="btn btn-info" id="check_btn" onclick="check()">Check</button>
+                </div>
+                <br>
+            <input class="form-control" type="text" id="number1" placeholder="Enter number here...">
+             <br>
+             <input class="form-control" type="text" id="number1" placeholder="Enter number here...">
+             <br>
+             <button class="btn btn-dark" id="send_btn" onclick="send()">Send</button>
+            </center>
+             
+        </div>
+    </body>
+</html>
