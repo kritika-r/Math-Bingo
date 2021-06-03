@@ -1,5 +1,5 @@
 body{
-    text-align: center !important;
+    text-align:center !important;
     background-image: url("backdrop.jpeg");
     background-position: center;
     background-size: cover;
@@ -10,24 +10,26 @@ p{
     font-style: unset;
     color: white;
     font-size: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    text-align:center !important;
 }
-h3{
+h4{
     font-weight: bold;
     font-style: unset;
     color:white;
+    
 
 }
 
 input{
     width: 300px !important;
    display: inline-block !important;
-   margin-bottom: 15px;
+   margin-bottom: 10px;
 }
 
 
 .container{
-    margin-top: 30px;
+    margin-top: 10px;
 }
 button{
     color: white;
@@ -39,18 +41,27 @@ h1{
     font-style: unset;
 }
 #h41{
-    width: 150px;
+    
    
     color: white;
     border-radius: 100px;
-    float:  right;
+   
 }
 #h42{
-    width: 150px;
+    
    
     color: white;
     border-radius: 100px;
-    float:  right;
+    
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+h3{
+    font-weight: bold;
+    font-style: unset;
+    color:white;
+    
 }
 
-   
